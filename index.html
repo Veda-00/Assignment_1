@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport", content="width-device-width",intial-scale= "1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>Table</title>
+        <style>
+        .table1 th{
+            border:1px solid white;
+            border-collapse: collapse;
+            }
+        .table1 td{
+                border:1px solid white;
+                border-collapse: collapse;
+                }
+        .table2 th{
+            border:1px solid black;
+            border-radius:10px
+        }
+        .table2 td{
+            border:1px solid black;
+            border-radius:10px
+        }
+
+        th,td{
+            background-color:lightblue;
+        }
+        .ul{
+        list-style-type: none;
+        margin: 10;
+        padding: 10;
+        overflow: hidden;
+        color:white   
+        }
+        .li{
+            float:left;
+        }
+        .div {
+        border: 1px solid black;
+        margin: 25px 50px 75px;
+        background-color:grey;
+        }
+        </style>
+    
+    </head>
+    <body>
+        <p style="text-align:right">Date:21-05-25</p>
+        <!--1st task-->
+        <table style="width:100%" class="table1">
+            <tr> 
+                <th>Firstaname</th> 
+                 <th>Lastname</th> 
+                 <th>Age</th> 
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>            
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+
+        </table>
+
+        <table style="width:100%", class="table2">
+            <tr> 
+                <th>Firstaname</th> 
+                 <th>Lastname</th> 
+                 <th>Age</th> 
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>            
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+
+        </table>
+        <hr>
+        <hr>
+        <!--2nd task-->
+        <h2>cafe</h2>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <ul>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ul>
+            <li>Milk</li>
+        </ul>
+        <hr>
+        <hr>
+        <!--3rd task-->
+        <div class="div">
+        <a>Click any of the following links</a>
+        <ul class="ul">
+            <li class="li"><a href="#Opens in New">Opens in New</a>|</li>
+            <li class="li"><a href="#Opens in Shelf">Opens in Shelf </a>|</li>
+            <li class="li"><a href="#Opens in Parent">Opens in Parent </a>|</li>
+            <li class="li"><a href="#Opens in Body">Opens in Body</a>|</li>
+        </ul>
+        </div>
+        <div class="div">
+        <br>
+        <h1><b>Link to an Email Address</b></h1>
+        <p> To create a link that opens in the user's program (tp let them send a new email),use mailto:inside the attribute:</p>
+        <a href="mailto:sendEmail@ex.com">Send Email</a>
+        </div>
+    </body>
+</html>
